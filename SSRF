@@ -1,0 +1,34 @@
+ssrf occur when server failed to validate parameter and this allow an attacker to gain access in internal resources
+SSRF leads to access the internal pages, perform network scan 
+
+There are two ways to prevent from ssrf;
+
+1. Block list based 
+2. White list based 
+
+There are lots of ways to bypas bypass there to protection based to fix of vulnerability
+
+
+finding parameter:
+
+1. waybackurls 
+2. webarchiv
+3. arjun
+4 and there are more
+
+Exploitation:
+
+find the parameter and understand the request and response:
+
+payload
+
+1. 127.0.0.1 or http://127.0.0.1
+2. localhost or http://localhost
+
+If both blocked then try equalent of 127.0.0.1 :
+
+127.1 or http://127.1
+localtest.me or http://localtest.me
+0.0.0.0 or http://0.0.0.0
+
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Request%20Forgery
