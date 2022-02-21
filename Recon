@@ -1,0 +1,10 @@
+1. robots.txt (this is used for prevent sensitive directory and files from scrolled by spider)
+2. error page (Always check error sometime webisite reveal sensitive information )
+3. security.txt
+This could be found user /.well-known/security.txt
+4. Always check links on source of website
+5. /admin/ is common directory that is mostly used by website owner
+6. use ffuf tool to find more hidden directory
+7. always check request and response header
+8. open TSL cert and check the data then check for subdomain of domain check the content of TLS cert
+9. 
