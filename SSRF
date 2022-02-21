@@ -1,6 +1,15 @@
 ssrf occur when server failed to validate parameter and this allow an attacker to gain access in internal resources
 SSRF leads to access the internal pages, perform network scan 
 
+
+
+Remember:
+*.hackingwithpentesterlab.link is localhost address
+we can use this payload when server is checking any particular website
+
+
+
+
 There are two ways to prevent from ssrf;
 
 1. Block list based 
